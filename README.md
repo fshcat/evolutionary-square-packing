@@ -1,4 +1,4 @@
 # Evolutionary Square Packing
-A survey explaining the square packing problem and past approaches to creating solutions can be found here https://erich-friedman.github.io/papers/squares/squares.html. 
+"Squares in squares" is a geometric packing problem in which some number of squares is arranged to minimize the size of the smallest bounding square that can contain them. A survey explaining the problem in greater detail and displaying some specific solutions can be found here https://erich-friedman.github.io/papers/squares/squares.html. 
 
-The hill climbing method employed by Thierry Gensane and Philippe Ryckelynck (2005) is implemented in evosquares/perturbations.py. This project uses their methodology as a foundation and tests novel evolutionary computation based approaches to the packing problem.
+A hill climbing method developed by Thierry Gensane and Philippe Ryckelynck (2005) is implemented in evosquares/perturbations.py. We aim to create new methods to tackle the problem based on approaches from evolutionary computation.
